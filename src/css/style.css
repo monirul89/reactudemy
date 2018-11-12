@@ -1,0 +1,23 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:#03a9f5;
+    text-align: center;
+    line-height: 30px;
+    /*height: 120px;*/
+}
+.logo{
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+input{
+    padding:8px 12px;
+}
