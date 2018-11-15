@@ -1,9 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 const NewsList = (props)=>{
+
+    const itms = this.props.map((item)=>{
+        return(
+            <div>
+                {item.title}             
+            </div>
+        )
+    })
+
     return (
-        <div>{this.props.donkey }</div>
-    );
+        <div>
+            itms
+        </div>
+    )
 }
 
 export default NewsList;

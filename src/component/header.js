@@ -1,35 +1,24 @@
-import React, { Component } from 'react';
-import '../css/style.css';
+import React from 'react';
 
-class Header extends Component {
+const newYear = () => {
+    const newDate = new Date();
+    return newDate.getFullYear();
+}
 
-    // constructor(props){
-    //     super(props)
-    //     this.state = {
-    //         keywords: 'Hello'
-    //     }
-    // }
-    state = {
-        title: 'The keywords are: ',
-        keywords: ''
-    }
+const user = {
+    firstName:'Monirul',
+    lastName:'Islam',
+    age:'29'
+}
 
-    inputChangeHandler = (event) =>{
-        // console.log(event.target.value)
-        this.setState({
-            keywords: event.target.value
-        })
-    }
-    render() {
-        console.log(this.state.keywords)
-        return (
-            <header>
-                <div className="logo">Logo</div>
-                <input type="text" onChange={this.inputChangeHandler}/>
-                <h2>{ this.state.title} {this.state.keywords }</h2>
-            </header>
-        )
-    }
+const Header = () => {
+    return (
+        <div>
+            <div>
+                This is my Header {newYear()}, {5 * 5}
+            </div>
+        </div>
+    )
 }
 
 export default Header;
