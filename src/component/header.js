@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
-import '../css/style.css';
+import React from 'react';
 
-class Header extends Component {
+const newYear = () => {
+    const newDate = new Date();
+    return newDate.getFullYear();
+}
 
-    // constructor(props){
-    //     super(props)
-    //     this.state = {
-    //         keywords: 'Hello'
-    //     }
-    // }
-    state = {
-        title: 'The keywords are: ',
-        keywords: ''
-    }
+const user = {
+    firstName:'Monirul',
+    lastName:'Islam',
+    age:'29'
+}
 
+<<<<<<< HEAD
     inputChangeHandler = (event) =>{
         const value = event.target.value === '' ? false : true;
         this.setState({
@@ -41,6 +39,16 @@ class Header extends Component {
             </header>
         );
     }
+=======
+const Header = () => {
+    return (
+        <div>
+            <div>
+                This is my Header {newYear()}, {5 * 5}
+            </div>
+        </div>
+    )
+>>>>>>> e0df715c95e70705f1f5952918aa627c9dd24929
 }
 
 export default Header;
