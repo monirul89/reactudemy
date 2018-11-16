@@ -1,8 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-const NewsList = (props)=>{
+
+
+
+// import component
+import ListItem from './news_list_item';
+
+const NewsList = (props) => {
+
+    var items = props.news.map((item) => {
+        
+        return (
+             <ListItem key={item.id} item={ item } />
+        )
+    });
     return (
-        <div>{this.props.donkey }</div>
+        <div>
+            {items}
+        </div>
     );
 }
 

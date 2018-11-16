@@ -15,20 +15,31 @@ class Header extends Component {
     }
 
     inputChangeHandler = (event) =>{
-        // console.log(event.target.value)
+        const value = event.target.value === '' ? false : true;
         this.setState({
+            active: value,
             keywords: event.target.value
-        })
+        });
     }
     render() {
-        console.log(this.state.keywords)
+
+        // const style = {
+        //     background:'red'
+        // }
+
+        // if(this.state.keywords !== ''){
+        //     style.background = 'blue'
+        // }else{
+        //     style.background = 'red'
+        // }
+
         return (
-            <header>
+            <header style={{background:'red'}}>
                 <div className="logo">Logo</div>
                 <input type="text" onChange={this.inputChangeHandler}/>
                 <h2>{ this.state.title} {this.state.keywords }</h2>
             </header>
-        )
+        );
     }
 }
 

@@ -13,11 +13,19 @@ class  App extends Component{
         news:JSON
     }
 
+
     render(){
+        var containerStyle = {
+            width:'960px',
+            margin: '0 auto'
+        }
         return (
-            <div>
-                <Header/>
-                <NewsList news={ this.state.news} donkey="Me"/>
+            <div className="container">
+                <Header style={containerStyle}/>
+                <div style={containerStyle}>
+                    <NewsList news={ this.state.news} donkey="Me"/>
+                </div>
+
             </div>
         )
     }
