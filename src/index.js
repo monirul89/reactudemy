@@ -1,43 +1,46 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-// JSON File
-import JSON from './List.json'
+import JSON from './db.json';
 
-//component
-import Header from './component/header';
-import List from './component/news_list';
+// COMPONENTS
+import Header from './components/header';
+import NewsList from  './components/news_list';
 
-class App extends Component{
+class App extends Component {
+
     state = {
-        news:JSON
+        news:JSON,
+        filtered:[]
     }
-<<<<<<< HEAD
 
+    getKeyword = (event) => {
+        //console.log(event.target.value)
+        let keyword = event.target.value;
+        let filtered = this.state.news.filter((item)=>{
+            return item.title.indexOf(keyword) > -1
+        });
+        this.setState({
+            filtered
+        })
+       // console.log(filtered)
+    }
 
-=======
->>>>>>> e0df715c95e70705f1f5952918aa627c9dd24929
     render(){
-        var containerStyle = {
-            width:'960px',
-            margin: '0 auto'
-        }
+        let newsFiltered = this.state.filtered;
+        let newsWhole = this.state.news
         return (
-<<<<<<< HEAD
-            <div className="container">
-                <Header style={containerStyle}/>
-                <div style={containerStyle}>
-                    <NewsList news={ this.state.news} donkey="Me"/>
-                </div>
-
-=======
             <div>
-                <Header/>
-                <List news={this.state.news} donkey='Me' />
->>>>>>> e0df715c95e70705f1f5952918aa627c9dd24929
+                 <Header keywords={this.getKeyword}/>
+                 <NewsList news={newsFiltered.length === 0 ? newsWhole : newsFiltered}>
+                    <h3>
+                        The news are:
+                    </h3>
+                 </NewsList>
             </div>
         )
-    }
+    }  
 }
 
-ReactDOM.render(<App/>,document.querySelector("#root"));
+
+ReactDOM.render(<App/>,document.querySelector('#root'));
