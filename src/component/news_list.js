@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+
+
+import React from 'react';
+import NewsItem from './news_list_item';
+
+
+const NewsList = (props)=>{
+
+    const itms = props.news.map((item)=>{
+        return(
+            <NewsItem key={item.id} item = {item}/>
+        )
+    });
+
+    return(
+        <div>
+                {props.children}
+                {itms}
+        </div>
+    )    
+=======
 import React from 'react';
 
 <<<<<<< HEAD
@@ -36,6 +58,7 @@ const NewsList = (props)=>{
         </div>
     )
 >>>>>>> e0df715c95e70705f1f5952918aa627c9dd24929
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
 }
 
 export default NewsList;

@@ -1,73 +1,123 @@
 [
     {
     "id": 1,
+<<<<<<< HEAD
+    "title": "This Is My First JSON Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 2,
+<<<<<<< HEAD
+    "title": "Is simply dummy text of the printing Is My First JSON Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 3,
+<<<<<<< HEAD
+    "title": "This Ipsum is simply dummy text of the printing",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 4,
+<<<<<<< HEAD
+    "title": "Ipsum is simply dummy text of the printing Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 5,
+<<<<<<< HEAD
+    "title": "The printing and typesetting First JSON Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
+<<<<<<< HEAD
+    "id": 6,
+    "title": "This Is My First JSON Title",
+=======
     "id": 61,
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 7,
+<<<<<<< HEAD
+    "title": "The printing and typesetting My First JSON Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 8,
+<<<<<<< HEAD
+    "title": "This simply dummy simply dummy Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
+<<<<<<< HEAD
+    "id": 9,
+    "title": "This simply dummy First JSON Title",
+=======
     "id": 8,
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 10,
+<<<<<<< HEAD
+    "title": "Simply dummy Is My First JSON Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 11,
+<<<<<<< HEAD
+    "title": "Lorem Ipsum Is My First JSON Title",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
     {
     "id": 12,
+<<<<<<< HEAD
+    "title": "This Is text of the printing",
+=======
     "title": "react-scripts build",
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
     "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
     "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   }

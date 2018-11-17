@@ -1,16 +1,22 @@
 import React from 'react';
 
-const newYear = () => {
-    const newDate = new Date();
-    return newDate.getFullYear();
+var styleBg = {
+    backgroundColor: '#088da5'
 }
 
-const user = {
-    firstName:'Monirul',
-    lastName:'Islam',
-    age:'29'
-}
+const Header = (props) =>{
 
+<<<<<<< HEAD
+    return (
+        <div style={ styleBg }>
+            <div className="container" style={{textAlign: 'center'}}>
+                <h1 className="logo">Logo </h1>
+                <input onChange={props.keywords} className="searchBox" type="text" placeholder="Search..."/>
+            </div>
+        </div>
+    )
+    
+=======
 <<<<<<< HEAD
     inputChangeHandler = (event) =>{
         const value = event.target.value === '' ? false : true;
@@ -49,6 +55,7 @@ const Header = () => {
         </div>
     )
 >>>>>>> e0df715c95e70705f1f5952918aa627c9dd24929
+>>>>>>> f438cbbe8cb4284edef76e3efe4f6d8c093feff7
 }
 
 export default Header;
